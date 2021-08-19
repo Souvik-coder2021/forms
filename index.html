@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="" id="title">Survey Form</h1>
+    <p class="" id="description">A simple form to take input from user.</p>
+    <form action="thankyou.html" class="" id="survey-form">
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" class="" id="email" placeholder="Enter your email..." required><br>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" class="" id="name" placeholder="Enter your name..." required><br>
+        <label for="gender">Gender:</label>
+        <label for="male"><input type="radio" name="gender" id="" value="male">Male</label>
+        <label for="female"><input type="radio" name="gender" id="" value="female">Female</label>
+        <label for="no-one"><input type="radio" name="gender" id="" value="no-one">Prefer not to say</label><br>
+        <label for="stream">Year of joining college: </label>
+        <select name="year" id="dropdown">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+        </select><br>
+        <label for="number" id="number-label">Semester:</label>
+        <input type="number" class="" id="number" min="1" max="8" placeholder="Give a number..." required><br><hr>
+        <label for="preference">Your field of interests:</label><br>
+        <label for=""><input type="checkbox" name="preference" id="" value="Algorithm Complexity">Algorithm and Complexity</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Architecture Organisation">Architecture and Organisation</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Computational Science">Computational Science</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Graphics Visual Computing">Graphics and Visual Computing</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Human Computer">Human-Computer Interaction</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="IT management">Information management</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Intelligence">Intelligent Systems</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Networks">Networking and Communication</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="OS">Operating Systems</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Parallel Distributive">Parallel and Distributed Computing</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Development">Platform-based Development</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Language">Programming Languages</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Security">Security and Information Assurance</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Software">Software Engineering</label>
+        <label for=""><input type="checkbox" name="preference" id="" value="Social issues">Social and Professional Issues</label><br><br>
+        <label for="">If you want to share your experience:</label><br>
+        <textarea name="" id="" cols="110" rows="10"></textarea><br><br>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
